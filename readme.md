@@ -1,13 +1,13 @@
-package com.zia.downloader;
+# java文件下载工具
 
-import com.zia.downloader.core.Downloadable;
-import com.zia.downloader.core.Downloader;
-import com.zia.downloader.listener.DownloadListener;
+* 多线程
+* 进度显示
+* 重定向
 
-import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 
+使用方法：
+
+~~~ java
 class Main {
 
     private static final String savePath = "/Users/jiangzilai/IdeaProjects/Downloader";
@@ -78,3 +78,4 @@ class Main {
         }
     }
 }
+~~~
